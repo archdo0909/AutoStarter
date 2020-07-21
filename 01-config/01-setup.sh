@@ -1,9 +1,7 @@
 #!/bin/bash
 
-echo "WowWowWowWow"
+pushd "/home/modi"
 
-#pushd "/home/modi"
+jupyter notebook --generate-config
 
-#jupyter notebook --generate-config
-
-#popd
+popd
